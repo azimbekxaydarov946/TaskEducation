@@ -21,24 +21,17 @@
 	
 	    DB ga table va view lar yaratadi	
 	
-5. <code>php artisan passport:install --force</code>
+5. <code>php artisan passport:install</code>
 
 	    Client ID va Client secret larni generate qiladi.	
 	
 6. <code>php artisan db:seed</code>
 		
-	    Superadmin user yaratadi:
+	    User yaratadi:
 
-	    username: superadmin@byorkit.uz
-        password: byork!@#$%
+	    username: user@gmail.com
+        password: 123456
 
 7. Shundan so'ng username, password, client id va client secret yordamida Bearer token olish mumkin.
 
 <br><hr><br>
-
-- Test ni yurgizish: <code>php artisan test</code>
-
-- Test qilinmagan routelarni aniqlash: <code>php artisan ntr</code>
-<br>Eslatma: <i>Ushbu buyruq to'g'ri natija berishligi uchun, albatta <b>test</b> dan keyin yurgizilishi kerak</i>
-
-- Yuqoridagi 2 ta buyruqni birdaniga ishlatish: <code>php artisan supertest</code>
